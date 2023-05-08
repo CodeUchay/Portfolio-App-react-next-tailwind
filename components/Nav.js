@@ -48,7 +48,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           <AiFillYoutube className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />
         </div>
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden hover:transform hover:scale-110 hover:duration-300 hover:ease-in mt-20 md:h-96 md:w-96">
-          <Image src={uche} layout="fill" objectFit="cover" />
+          <Image src={uche} alt="A photo of me" layout="fill" objectFit="cover" />
         </div>
       </div>
     </section>

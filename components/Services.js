@@ -28,7 +28,7 @@ export default function Services() {
       </div>
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1  dark:text-gray-200 items-center text-lg  hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 dark:bg-teal-600">
-          <Image src={design} width={100} height={100} />
+          <Image src={design} alt="Designer" width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2  ">Beautiful Designs</h3>
           <p className="py-2">
             Creating elegant designs suited for your needs following core design
@@ -36,7 +36,7 @@ export default function Services() {
           </p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-teal-600 flex-1  dark:text-gray-200 items-center text-lg  hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105">
-          <Image src={code} width={100} height={100} />
+          <Image src={code} alt="My Service" width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Code your dream project
           </h3>
@@ -46,7 +46,7 @@ export default function Services() {
           </p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-teal-600 flex-1  dark:text-gray-200 items-center text-lg  hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105">
-          <Image src={consulting} width={100} height={100} />
+          <Image src={consulting} alt="My Service" width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
           <p className="py-2">
             Are you interested in feedback for your current project? I can give

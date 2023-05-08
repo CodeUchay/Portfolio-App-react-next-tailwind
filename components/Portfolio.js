@@ -36,6 +36,7 @@ export default function Portfolio() {
             height={"60%"}
             layout="responsive"
             src={web1}
+            alt="Portfolio Image"
           />
         </div>
         <div className="basis-1/3 flex-1 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 ">
@@ -44,6 +45,7 @@ export default function Portfolio() {
             width={"100%"}
             height={"60%"}
             layout="responsive"
+            alt="Portfolio Image"
             src={web2}
           />
         </div>
@@ -53,6 +55,7 @@ export default function Portfolio() {
             width={"100%"}
             height={"60%"}
             layout="responsive"
+            alt="Portfolio Image"
             src={web3}
           />
         </div>
@@ -62,6 +65,7 @@ export default function Portfolio() {
             width={"100%"}
             height={"60%"}
             layout="responsive"
+            alt="Portfolio Image"
             src={web4}
           />
         </div>
@@ -71,6 +75,7 @@ export default function Portfolio() {
             width={"100%"}
             height={"60%"}
             layout="responsive"
+            alt="Portfolio Image"
             src={web5}
           />
         </div>
@@ -80,6 +85,7 @@ export default function Portfolio() {
             width={"100%"}
             height={"60%"}
             layout="responsive"
+            alt="Portfolio Image"
             src={web6}
           />
         </div>
