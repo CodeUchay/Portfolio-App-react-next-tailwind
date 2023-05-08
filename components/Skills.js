@@ -27,7 +27,7 @@ export default function Skills() {
       </div>
       <div className="text-lg my-5 leading-9 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 grid-rows-3 gap-12">
         {skills.map((skill) => (
-          <div className="rounded-lg  dark:text-gray-200 flex justify-center p-4 text-center bg-teal-600 items-center text-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 hover:bg-teal-800 transition duration-500 ease-in-out">
+          <div  className="rounded-lg  dark:text-gray-200 flex justify-center p-4 text-center bg-teal-600 items-center text-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 hover:bg-teal-800 transition duration-500 ease-in-out">
             <HiBadgeCheck
               className="w-6 h-6 flex-shrink-0 mr-2 hover:text-white"
               viewBox="0 0 24 24"
