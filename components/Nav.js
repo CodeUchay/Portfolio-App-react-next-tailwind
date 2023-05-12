@@ -54,3 +54,4 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
     </section>
   );
 }
+
