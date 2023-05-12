@@ -5,7 +5,7 @@ import web2 from "../public/portfolio2.png";
 import web3 from "../public/portfolio3.png";
 import web4 from "../public/portfolio4.png";
 import web5 from "../public/portfolio5.png";
-import web6 from "../public/web6.png";
+import web6 from "../public/portfolio6.png";
 
 export default function Portfolio() {
   return (
