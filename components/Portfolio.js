@@ -1,5 +1,5 @@
 import { SiPolymerproject } from "react-icons/si";
-import Image from "next/image.js";
+import Image from "next/image";
 import web1 from "../public/portfolio1.png";
 import web2 from "../public/portfolio2.png";
 import web3 from "../public/portfolio3.png";
