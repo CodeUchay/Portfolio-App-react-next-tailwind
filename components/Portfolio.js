@@ -1,11 +1,11 @@
 import { SiPolymerproject } from "react-icons/si";
 import Image from "next/image";
-import web1 from "../images/portfolio1.png";
-import web2 from "../images/portfolio2.png";
-import web3 from "../images/portfolio3.png";
-import web4 from "../images/portfolio4.png";
-import web5 from "../images/portfolio5.png";
-import web6 from "../images/portfolio6.png";
+import web1 from "../images/app1.png";
+import web2 from "../images/app2.png";
+import web3 from "../images/app3.png";
+import web4 from "../images/app4.png";
+import web5 from "../images/app5.png";
+import web6 from "../images/app6.png";
 
 export default function Portfolio() {
   return (
