@@ -31,7 +31,8 @@ export default function Contact() {
         <MdContactEmergency className="text-teal-600 text-6xl mb-4" />
         <h1 className="text-teal-600 text-4xl mb-4"> Contact Me! </h1>
         <p className="text-center   dark:text-gray-200">
-          You can contact me for any other information and i will be sure to respond at my earliest convenience 
+          You can contact me for any other information and i will be sure to
+          respond at my earliest convenience
         </p>
       </div>
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -61,9 +62,11 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-teal-600 leading-relaxed">
-                odins.uche@gmail.com
-              </a>
+              <div className="overflow-x-auto">
+                <a className="text-teal-600 leading-relaxed">
+                  odins.uche@gmail.com
+                </a>
+              </div>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
@@ -81,7 +84,9 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5 dark:text-white">
-            Software engineering is like playing with toys. I love complex toys! Lets Play! or Do you have a full stack or Artificial intelligence project you're working on?
+            Software engineering is like playing with toys. I love complex toys!
+            Lets Play! or Do you have a full stack or Artificial intelligence
+            project you're working on?
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-600">
