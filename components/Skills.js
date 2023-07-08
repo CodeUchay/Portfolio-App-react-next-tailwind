@@ -10,7 +10,7 @@ export default function Skills() {
           Skills &amp; Technologies
         </h1>
         <p className="text-center mb-7 text-md dark:text-gray-200">
-          The following are my skills as a <span className="text-teal-500">Web developer </span> and a <span className="text-teal-500">Software Engineer </span>
+          The following are my skills as a <span className="text-teal-500">Software Engineer </span> and a <span className="text-teal-500">Full Stack Developer </span>
         </p>
       </div>
       <div className="text-lg my-5 leading-9 text-white grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 grid-rows-3 gap-12">
