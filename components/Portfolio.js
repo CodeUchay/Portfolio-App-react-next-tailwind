@@ -6,7 +6,7 @@ import web3 from "../images/app3.png";
 import web4 from "../images/app4.png";
 import web5 from "../images/app5.png";
 import web6 from "../images/app6.png";
-import web7 from "../images/app0.png";
+import web7 from "../images/app00.png";
 
 export default function Portfolio() {
   return (
