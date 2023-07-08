@@ -1,7 +1,12 @@
 import React from "react";
 import uche from "../public/avatar.jpg";
 import Image from "next/image";
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillInstagram,
+  AiFillGithub,
+} from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
@@ -11,19 +16,14 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
         <h1 className="font-burtons text-xl">CodeUchay</h1>
         <ul className="flex items-center">
           <li>
-            <button
-              className="focus:outline-none"
-              onClick={toggleDarkMode}
-            >
-              <BsFillMoonStarsFill
-                className=" cursor-pointer text-2xl"
-              />
+            <button className="focus:outline-none" onClick={toggleDarkMode}>
+              <BsFillMoonStarsFill className=" cursor-pointer text-2xl" />
             </button>
           </li>
           <li>
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-              href="#"
+              href="https://docs.google.com/document/d/1kUeS81FLyP2VmPFxvU2seJOTJ67leJtqcoLlZ2keDg4/edit?usp=sharing"
             >
               Resume
             </a>
@@ -35,23 +35,41 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           Uche Odinamba
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Software Engineer.
+          Software Engineer
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-          I'm a software engineer in France with a flare for frontend web
-          engineering, I really enjoy building digital products that scale, are
-          innovative, performant and accessible globally.
+          I'm a Software Engineer in France with a flare for Full Stack
+          Devlopment and Artificial Intelligence. I really enjoy building
+          digital products that scale, are innovative, performant and accessible
+          globally.
         </p>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-gray-400">
-          <AiFillTwitterCircle className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />
-          <AiFillLinkedin className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />
-          <AiFillYoutube className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />
+          <a href="https://github.com/codeuchay">
+            {" "}
+            <AiFillGithub className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
+          </a>
+          <a href="https://linkedin.com/in/uche-odinamba-b89bb5108/">
+            {" "}
+            <AiFillLinkedin className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
+          </a>
+          <a href="https://instagram.com/uchaygram">
+            {" "}
+            <AiFillInstagram className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
+          </a>
+          <a href="https://twitter.com/offuchay">
+            {" "}
+            <AiFillTwitterCircle className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
+          </a>
         </div>
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden hover:transform hover:scale-110 hover:duration-300 hover:ease-in mt-20 md:h-96 md:w-96">
-          <Image src={uche} alt="A photo of me" layout="fill" objectFit="cover" />
+          <Image
+            src={uche}
+            alt="A photo of me"
+            layout="fill"
+            objectFit="cover"
+          />
         </div>
       </div>
     </section>
   );
 }
-

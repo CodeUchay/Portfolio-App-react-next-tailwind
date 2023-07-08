@@ -14,22 +14,20 @@ export default function Services() {
         </h3>
 
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          Since the beginning of my journey as a freelance designer and
-          developer, I've done remote work for
-          <span className="text-teal-500"> agencies </span>
-          consulted for <span className="text-teal-500">startups </span>
-          and collaborated with talanted people to create digital products for
-          both business and consumer use.
+          As a self-taught programmer my dream is to keep creating projects as a full stack developer and
+          software engineer, I've worked with an IT service
+          <span className="text-teal-500"> company </span>
+          and also handled websites for some <span className="text-teal-500">firms </span>
+          and i am currently on track to become a software engineer to grow further.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          I offer from a wide range of services, including brand design,
-          programming and teaching.
+          Asides this, i am a business owner, fashion designer and a model
         </p>
       </div>
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1  dark:text-gray-200 items-center text-lg  hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 dark:bg-teal-600">
           <Image src={design} alt="Designer" width={100} height={100} />
-          <h3 className="text-lg font-medium pt-8 pb-2  ">Beautiful Designs</h3>
+          <h3 className="text-lg font-medium pt-8 pb-2  ">Build your design</h3>
           <p className="py-2">
             Creating elegant designs suited for your needs following core design
             theory.
@@ -41,16 +39,15 @@ export default function Services() {
             Code your dream project
           </h3>
           <p className="py-2">
-            Do you have an idea for your next great website? Let's make it a
+            Do you have an idea for your next great website? Mobile Application? Machine Learning? Let's make it a
             reality.
           </p>
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-teal-600 flex-1  dark:text-gray-200 items-center text-lg  hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105">
           <Image src={consulting} alt="My Service" width={100} height={100} />
-          <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+          <h3 className="text-lg font-medium pt-8 pb-2 ">Web Administration</h3>
           <p className="py-2">
-            Are you interested in feedback for your current project? I can give
-            you tips and tricks to level it up.
+           Do you need someone to handle your website, SEO and create the best user experience? Lets go!
           </p>
         </div>
       </div>

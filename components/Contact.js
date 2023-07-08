@@ -27,13 +27,11 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="flex flex-col text-center items-center justify-center mt-10 py-7">
+      <div className="flex flex-col text-center items-center justify-center mt-5 py-7">
         <MdContactEmergency className="text-teal-600 text-6xl mb-4" />
         <h1 className="text-teal-600 text-4xl mb-4"> Contact Me! </h1>
-        <p className="text-center mb-9  dark:text-gray-200">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-          ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-          possimus est.
+        <p className="text-center   dark:text-gray-200">
+          You can contact me for any other information and i will be sure to respond at my earliest convenience 
         </p>
       </div>
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -47,7 +45,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=Rouen,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -55,8 +53,8 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1 text-white">
-                17 avenue de la mare aux daims <br />
-                St Etienne du rouvray
+                Rouen, <br />
+                France
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -64,7 +62,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-teal-600 leading-relaxed">
-                reedbarger@email.com
+                odins.uche@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
@@ -83,11 +81,10 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5 dark:text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Software engineering is like playing with toys. I love complex toys! Lets Play! or Do you have a full stack or Artificial intelligence project you're working on?
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-600">
               Name
             </label>
             <input
@@ -99,7 +96,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-600">
               Email
             </label>
             <input
@@ -113,7 +110,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400"
+              className="leading-7 text-sm text-gray-600"
             >
               Message
             </label>
