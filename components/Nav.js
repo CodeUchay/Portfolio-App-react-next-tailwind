@@ -35,7 +35,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           Uche Odinamba
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Software Engineer
+          Software Developer/Engineer
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
           I'm a Software Engineer in France with a flare for Full Stack

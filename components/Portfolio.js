@@ -1,5 +1,6 @@
 import { SiPolymerproject } from "react-icons/si";
 import Image from "next/image";
+import web0 from "../images/app10.png";
 import web1 from "../images/app1.png";
 import web2 from "../images/app2.png";
 import web3 from "../images/app3.png";
@@ -51,10 +52,10 @@ export default function Portfolio() {
             <span>React.js, Next.js, Tailwind CSS</span>
           </div>
         </a>
-        {/** Uche's Diary */}
+        {/** Eshoes */}
         <a
-          href="https://blog-app-react-firebase.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
+          href="https://eshoes.com.ng"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
             className="rounded-lg object-cover"
@@ -62,11 +63,11 @@ export default function Portfolio() {
             height={"60%"}
             layout="responsive"
             alt="Portfolio Image"
-            src={web6}
+            src={web0}
           />
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Uche's Diary (Blog App) </p>
-            <span>React.js, Firebase, Mongo DB, REST API</span>
+            <p className="font-bold"> Eshoes (Ecommerce website) </p>
+            <span>Wordpress, HTML, CSS, PHP, SQL</span>
           </div>
         </a>
         {/** Infinity */}
@@ -87,6 +88,25 @@ export default function Portfolio() {
             <span>React.js, Tailwind CSS</span>
           </div>
         </a>
+        {/** Uche's Diary */}
+        <a
+          href="https://blog-app-react-firebase.vercel.app"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
+        >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web6}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold"> Uche's Diary (Blog App) </p>
+            <span>React.js, Firebase, Mongo DB, REST API</span>
+          </div>
+        </a>
+        
         {/** Trivia */}
         <a
           href="https://trivia-app-cyan.vercel.app"
