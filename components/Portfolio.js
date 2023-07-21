@@ -11,6 +11,7 @@ import web7 from "../images/app00.png";
 import web8 from "../images/app7.png";
 import web9 from "../images/app8.png";
 import web10 from "../images/app9.png";
+import web11 from "../images/app000.jpg"
 
 export default function Portfolio() {
   return (
@@ -217,7 +218,7 @@ export default function Portfolio() {
         </a>
         {/** Calculator */}
         <a
-          href="https://chefkim-admin.vercel.app"
+          href="https://calculator-delta-roan.vercel.app"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -231,6 +232,24 @@ export default function Portfolio() {
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
             <p className="font-bold"> Calculator </p>
             <span> HTML, CSS, JavaScript </span>
+          </div>
+        </a>
+        {/** Place Holder */}
+        <a
+          href="https://github.com/codeuchay"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
+        >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web11}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold"> Github  </p>
+            <span>  </span>
           </div>
         </a>
       </div>
