@@ -17,7 +17,7 @@ export default function Subprojects() {
   return (
     <div className="mx-10 py-10">
       <Link href="/">
-        <a className="text-teal-600 text-2xl underline mb-4 py-1 dark:text-white flex items-center ">
+        <a className="text-teal-600 text-2xl underline mb-4 py-1 flex items-center ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
