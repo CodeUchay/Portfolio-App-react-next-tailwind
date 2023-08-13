@@ -1,21 +1,16 @@
 import { SiPolymerproject } from "react-icons/si";
 import Image from "next/image";
-import web0 from "../images/app10.png";
-import web1 from "../images/app1.png";
-import web2 from "../images/app2.png";
-import web3 from "../images/app3.png";
-import web4 from "../images/app4.png";
+import Link from "next/link";
+import web0 from "../images/app0.png";
 import web5 from "../images/app5.png";
-import web6 from "../images/app6.png";
-import web7 from "../images/app00.png";
 import web8 from "../images/app7.png";
 import web9 from "../images/app8.png";
-import web10 from "../images/app9.png";
-import web11 from "../images/app000.jpg"
+import web12 from "../images/app11.png";
+import web13 from "../images/app12.png";
 
 export default function Portfolio() {
   return (
-    <section>
+    <section className="flex flex-col text-center items-center justify-center">
       <div className="flex flex-col text-center items-center justify-center mt-10 py-10">
         <SiPolymerproject className="text-teal-600 text-6xl mb-4" />
         <h3 className="text-teal-600 text-4xl mb-4 py-1 dark:text-white ">
@@ -24,7 +19,10 @@ export default function Portfolio() {
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           These are a list of my personal project as a Software Engineer. You
           can find projects on other Software Applications on my
-          <span className="text-teal-500"> Github </span>
+          <a href="https://github.com/codeuchay" className="text-teal-500">
+            {" "}
+            Github{" "}
+          </a>
           for example{" "}
           <span className="text-teal-500">
             {" "}
@@ -53,6 +51,24 @@ export default function Portfolio() {
             <span>React.js, Next.js, Tailwind CSS</span>
           </div>
         </a>
+        {/** Tastyy */}
+        <a
+          href="https://tasty-rho.vercel.app/"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
+        >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web12}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold"> Tastyy - E-commerce Restaurant App </p>
+            <span>React.js, Tailwind CSS</span>
+          </div>
+        </a>
         {/** Eshoes */}
         <a
           href="https://eshoes.com.ng"
@@ -67,8 +83,29 @@ export default function Portfolio() {
             src={web0}
           />
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Eshoes (Ecommerce website) </p>
+            <p className="font-bold"> Eshoes - Shoe E-commerce Store</p>
             <span>Wordpress, HTML, CSS, PHP, SQL</span>
+          </div>
+        </a>
+        {/** CodeRage */}
+        <a
+          href="https://blog-app-react-firebase.vercel.app"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
+        >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web13}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold"> CodeRage - Tech Blog </p>
+            <span>
+              React.js, Node.js, Tailwind.css, Express.js, JWT, CORS, MongoDB,
+              bycrypt, multer
+            </span>
           </div>
         </a>
         {/** Infinity */}
@@ -85,63 +122,11 @@ export default function Portfolio() {
             src={web8}
           />
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Infinity Tech (Product Landing Page) </p>
+            <p className="font-bold">
+              {" "}
+              Infinity Tech - Tech Product Landing Page{" "}
+            </p>
             <span>React.js, Tailwind CSS</span>
-          </div>
-        </a>
-        {/** Uche's Diary */}
-        <a
-          href="https://blog-app-react-firebase.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web6}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Uche's Diary (Blog App) </p>
-            <span>React.js, Firebase, Mongo DB, REST API</span>
-          </div>
-        </a>
-        
-        {/** Trivia */}
-        <a
-          href="https://trivia-app-cyan.vercel.app"
-          className="basis-1/3 flex-1  text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web2}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Trivia App </p>
-            <span>HTML, CSS, JavaScript</span>
-          </div>
-        </a>
-        {/** To-do List App */}
-        <a
-          href="https://todo-list-app-uche.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web1}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> To-do List App </p>
-            <span>HTML, CSS, JavaScript</span>
           </div>
         </a>
         {/** To-do List App */}
@@ -162,97 +147,26 @@ export default function Portfolio() {
             <span> Typescript.js, Tailwind CSS </span>
           </div>
         </a>
-        {/** Event Page */}
-        <a
-          href="https://event-project-esig.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web3}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Event Page </p>
-            <span> HTML, CSS, JavaScript, PHP, MYSQL </span>
-          </div>
-        </a>
-        {/** Ecommerce Dashboard */}
-        <a
-          href="https://chefkim-admin.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web7}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Ecommerce Admin Page </p>
-            <span> React.js, Firebase, Axios, Express, REST </span>
-          </div>
-        </a>
-        {/** Chef Kim Restaurant */}
-        <a
-          href="https://chefkimkitchen.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web10}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Chef Kim Restaurant </p>
-            <span> React.js, Tailwind CSS </span>
-          </div>
-        </a>
-        {/** Calculator */}
-        <a
-          href="https://calculator-delta-roan.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web4}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Calculator </p>
-            <span> HTML, CSS, JavaScript </span>
-          </div>
-        </a>
-        {/** Place Holder */}
-        <a
-          href="https://github.com/codeuchay"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web11}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Github  </p>
-            <span>  </span>
-          </div>
-        </a>
       </div>
+      <Link href="/subprojects">
+        <a className="text-teal-600 text-xl underline mb-4 py-1 dark:text-white flex items-center">
+          View More Projects{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-5 ml-1 mt-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </a>
+      </Link>
     </section>
   );
 }
