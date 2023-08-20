@@ -89,7 +89,7 @@ export default function Portfolio() {
         </a>
         {/** CodeRage */}
         <a
-          href="https://blog-app-react-firebase.vercel.app"
+          href="https://code-rage-blog.vercel.app"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
         >
           <Image
