@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import web0 from "../images/app0.png";
 import web5 from "../images/app5.png";
-import web8 from "../images/app7.png";
-import web9 from "../images/app8.png";
+import web8 from "../images/app14.jpg";
+import web9 from "../images/app15.jpg";
 import web12 from "../images/app11.png";
 import web13 from "../images/app12.png";
 
@@ -36,6 +36,7 @@ export default function Portfolio() {
         {/** Portfolio App */}
         <a
           href="https://react-portofolio-tailwind-beta.vercel.app"
+          target="_blank"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -54,6 +55,7 @@ export default function Portfolio() {
         {/** Tastyy */}
         <a
           href="https://tasty-rho.vercel.app/"
+          target="_blank"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -72,6 +74,7 @@ export default function Portfolio() {
         {/** Eshoes */}
         <a
           href="https://eshoes.com.ng"
+          target="_blank"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -87,9 +90,32 @@ export default function Portfolio() {
             <span>Wordpress, HTML, CSS, PHP, SQL</span>
           </div>
         </a>
+        {/** Learn React */}
+        <a
+          href="https://reactguy.vercel.app"
+          target="_blank"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
+         >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web8}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold">
+              {" "}
+              React Guy 
+            </p>
+            <span>React.js, Tailwind CSS, Email.js </span>
+          </div>
+        </a>
         {/** CodeRage */}
         <a
           href="https://code-rage-blog.vercel.app"
+          target="_blank"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
         >
           <Image
@@ -108,32 +134,12 @@ export default function Portfolio() {
             </span>
           </div>
         </a>
-        {/** Infinity */}
+        {/** Host Cat */}
         <a
-          href="https://infinity-five-snowy.vercel.app"
+          href="https://hostcat.ng"
+          target="_blank"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
-          <Image
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"60%"}
-            layout="responsive"
-            alt="Portfolio Image"
-            src={web8}
-          />
-          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold">
-              {" "}
-              Infinity Tech - Tech Product Landing Page{" "}
-            </p>
-            <span>React.js, Tailwind CSS</span>
-          </div>
-        </a>
-        {/** To-do List App */}
-        <a
-          href="https://to-do-list-mauve-ten.vercel.app"
-          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
-        >
+         >
           <Image
             className="rounded-lg object-cover"
             width={"100%"}
@@ -143,10 +149,12 @@ export default function Portfolio() {
             src={web9}
           />
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
-            <p className="font-bold"> Ol'Task (To-do List App) </p>
-            <span> Typescript.js, Tailwind CSS </span>
+            <p className="font-bold"> Host Cat - Event Management </p>
+            <span> Typescript.js, Tailwind CSS, Firebase </span>
           </div>
         </a>
+        
+        
       </div>
       <Link href="/subprojects">
         <a className="text-teal-600 text-xl underline mb-4 py-1 dark:text-white flex items-center">

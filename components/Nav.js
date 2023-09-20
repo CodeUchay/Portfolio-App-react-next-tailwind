@@ -24,6 +24,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               href="https://docs.google.com/document/d/1kUeS81FLyP2VmPFxvU2seJOTJ67leJtqcoLlZ2keDg4/edit?usp=sharing"
+              target="_blank"
             >
               Resume
             </a>
@@ -46,17 +47,18 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
         <div className="text-5xl flex justify-center gap-10 md:gap-16 py-3 text-gray-600  dark:text-gray-400">
           <a href="https://github.com/codeuchay">
             {" "}
-            <AiFillGithub className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
+            <AiFillGithub className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out"
+            target="_blank" />{" "}
           </a>
-          <a href="https://linkedin.com/in/uche-odinamba-b89bb5108/">
+          <a href="https://linkedin.com/in/uche-odinamba-b89bb5108/" target="_blank">
             {" "}
             <AiFillLinkedin className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
-          <a href="https://instagram.com/uchaygram">
+          <a href="https://instagram.com/uchaygram" target="_blank">
             {" "}
             <AiFillInstagram className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
-          <a href="https://twitter.com/offuchay">
+          <a href="https://twitter.com/offuchay" target="_blank">
             {" "}
             <AiFillTwitterCircle className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>

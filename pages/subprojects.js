@@ -7,6 +7,8 @@ import web2 from "../images/app2.png";
 import web3 from "../images/app3.png";
 import web4 from "../images/app4.png";
 import web7 from "../images/app00.png";
+import web8 from "../images/app7.png";
+import web9 from "../images/app8.png";
 import web13 from "../images/app13.png";
 import web10 from "../images/app9.png";
 import web11 from "../images/app000.jpg";
@@ -56,6 +58,47 @@ export default function Subprojects() {
               <span>HTML, CSS, JavaScript</span>
             </div>
           </a>
+           {/** To-do List App Typescript*/}
+        <a
+          href="https://to-do-list-mauve-ten.vercel.app"
+          target="_blank"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
+         >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web9}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold"> Ol'Task (To-do List App) </p>
+            <span> Typescript.js, Tailwind CSS </span>
+          </div>
+        </a>
+          {/** Infinity */}
+          <a
+          href="https://infinity-five-snowy.vercel.app"
+          target="_blank"
+          className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
+        >
+          <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"60%"}
+            layout="responsive"
+            alt="Portfolio Image"
+            src={web8}
+          />
+          <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
+            <p className="font-bold">
+              {" "}
+              Infinity Tech - Tech Product Landing Page{" "}
+            </p>
+            <span>React.js, Tailwind CSS</span>
+          </div>
+        </a>
           {/** To-do List App */}
           <a
             href="https://todo-list-app-uche.vercel.app"
