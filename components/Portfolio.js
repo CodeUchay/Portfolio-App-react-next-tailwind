@@ -36,7 +36,7 @@ export default function Portfolio() {
         {/** Portfolio App */}
         <a
           href="https://react-portofolio-tailwind-beta.vercel.app"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -55,7 +55,7 @@ export default function Portfolio() {
         {/** Tastyy */}
         <a
           href="https://tasty-rho.vercel.app/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -74,7 +74,7 @@ export default function Portfolio() {
         {/** Eshoes */}
         <a
           href="https://eshoes.com.ng"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
@@ -93,7 +93,7 @@ export default function Portfolio() {
         {/** Learn React */}
         <a
           href="https://reactguy.vercel.app"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
          >
           <Image
@@ -115,7 +115,7 @@ export default function Portfolio() {
         {/** CodeRage */}
         <a
           href="https://code-rage-blog.vercel.app"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
         >
           <Image
@@ -137,7 +137,7 @@ export default function Portfolio() {
         {/** Host Cat */}
         <a
           href="https://hostcat.ng"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
          >
           <Image

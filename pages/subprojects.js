@@ -61,7 +61,7 @@ export default function Subprojects() {
            {/** To-do List App Typescript*/}
         <a
           href="https://to-do-list-mauve-ten.vercel.app"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
          >
           <Image
@@ -80,7 +80,7 @@ export default function Subprojects() {
           {/** Infinity */}
           <a
           href="https://infinity-five-snowy.vercel.app"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >
           <Image
