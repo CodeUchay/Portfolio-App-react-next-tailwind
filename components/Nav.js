@@ -45,21 +45,17 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           globally.
         </p>
         <div className="text-5xl flex justify-center gap-10 md:gap-16 py-3 text-gray-600  dark:text-gray-400">
-          <a href="https://github.com/codeuchay">
-            {" "}
+          <a href="https://github.com/codeuchay"  target="_blank">
             <AiFillGithub className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out"
-            target="_blank" />{" "}
+            />
           </a>
           <a href="https://linkedin.com/in/uche-odinamba-b89bb5108/" target="_blank">
-            {" "}
             <AiFillLinkedin className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
           <a href="https://instagram.com/uchaygram" target="_blank">
-            {" "}
             <AiFillInstagram className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
           <a href="https://twitter.com/offuchay" target="_blank">
-            {" "}
             <AiFillTwitterCircle className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
         </div>
