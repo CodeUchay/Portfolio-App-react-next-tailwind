@@ -24,7 +24,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               href="https://docs.google.com/document/d/1kUeS81FLyP2VmPFxvU2seJOTJ67leJtqcoLlZ2keDg4/edit?usp=sharing"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               Resume
             </a>
