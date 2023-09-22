@@ -22,7 +22,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Code Uchay</title>
-        <meta name="description" content="Uche Odinamba's Portfolio Website" />
+        <meta name="description" content="Software Engineer/Developer" />
         <link rel="icon" href="/avatar.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 ">
