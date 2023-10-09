@@ -35,7 +35,7 @@ export default function Portfolio() {
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         {/** Portfolio App */}
         <a
-          href="https://react-portofolio-tailwind-beta.vercel.app"
+          href="https://uchay.com"
           target="_blank" rel="noopener noreferrer"
           className="basis-1/3 flex-1 text-white hover:bg-gray-800 hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105"
         >

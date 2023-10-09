@@ -26,7 +26,16 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
               href="https://docs.google.com/document/d/1kUeS81FLyP2VmPFxvU2seJOTJ67leJtqcoLlZ2keDg4/edit?usp=sharing"
               target="_blank" rel="noopener noreferrer"
             >
-              Resume
+               Resume <span className="font-semibold">EN</span>
+            </a>
+          </li>
+          <li className="hidden lg:block">
+            <a
+              className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+              href="https://drive.google.com/file/d/12NpnRO2N3b64wPLYNAmbx8tT8GVeqj9r/view?usp=drive_link"
+              target="_blank" rel="noopener noreferrer"
+            >
+              Resume <span className="font-semibold">FR</span>
             </a>
           </li>
         </ul>
