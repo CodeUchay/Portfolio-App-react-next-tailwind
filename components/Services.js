@@ -15,10 +15,10 @@ export default function Services() {
 
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           I create projects  as a 
-          software engineer and full stack developer , I've worked with an IT service
+          software engineer and full stack developer , I've worked with a Bank, IT solutions
           <span className="text-teal-500"> company </span>
           and also handled websites for some <br/> <span className="text-teal-500">firms </span>
-          and i am currently on track to become a machine learning engineer to grow further.
+          and i am currently on track to become more robost in full-stack engineering and  machine learning.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           Asides this, i am a business owner, fashion designer and a model
@@ -45,9 +45,9 @@ export default function Services() {
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-teal-600 flex-1  dark:text-gray-200 items-center text-lg  hover:shadow-lg hover:shadow-teal-600 transition duration-500 ease-in-out hover:scale-105">
           <Image src={consulting} alt="My Service" width={100} height={100} />
-          <h3 className="text-lg font-medium pt-8 pb-2 ">Web Administration</h3>
+          <h3 className="text-lg font-medium pt-8 pb-2 ">Web App Upgrade</h3>
           <p className="py-2">
-           Do you need someone to handle your website, SEO and create the best user experience? Lets go!
+           Do you need someone to handle upgrade, integration, redeployment, SEO of your website and create the best user experience? Lets do it!
           </p>
         </div>
       </div>

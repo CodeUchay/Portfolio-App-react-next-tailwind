@@ -10,6 +10,7 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
+  
   return (
     <section className="min-h-screen">
       <nav className="py-10 mb-12 flex justify-between dark:text-white">
@@ -32,7 +33,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           <li className="hidden lg:block">
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-              href="https://drive.google.com/file/d/12NpnRO2N3b64wPLYNAmbx8tT8GVeqj9r/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1FFKoseVN1NXU70ykXB9eTy0xcRpwvlz6/view?usp=drive_link"
               target="_blank" rel="noopener noreferrer"
             >
               Resume <span className="font-semibold">FR</span>
@@ -45,10 +46,10 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           Uche Odinamba
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Software Developer/Engineer
+          Full-stack Developer | Software Engineer
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-          I'm a Software Engineer in France with a flare for Full Stack
+          I'm a Software Engineer in France with a flare for Full-stack
           Devlopment and Artificial Intelligence. I really enjoy building
           digital products that scale, are innovative, performant and accessible
           globally.

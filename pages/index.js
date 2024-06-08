@@ -15,11 +15,12 @@ export default function Home() {
   }, []);
   useEffect(() => {
     const body = document.querySelector("body");
-    body.className = darkMode ? "dark" : "";
+    body.className = darkMode ? "" : "dark";
   }, [darkMode]);
 
+  
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? "" : "dark"}>
       <Head>
         <title>Code Uchay</title>
         <meta name="description" content="Software Engineer/Developer" />
