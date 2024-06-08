@@ -2,7 +2,7 @@ import { SiPolymerproject } from "react-icons/si";
 import Image from "next/image";
 import Link from "next/link";
 import web0 from "../images/app0.png";
-import web5 from "../images/app16.jpg";
+import web5 from "../images/app16.JPG";
 import web8 from "../images/app14.jpg";
 import web9 from "../images/app15.jpg";
 import web12 from "../images/app11.png";
