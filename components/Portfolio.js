@@ -17,7 +17,7 @@ export default function Portfolio() {
           Portfolio
         </h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          These are a list of my personal web projects, they contain <span className="text-teal-500">dynamic features</span> and are <span className="text-teal-500">mobile responsive</span>. My professional projects within my previous jobs are non-public. You
+          This is a list of my personal web projects, they contain <span className="text-teal-500">dynamic features</span> and are <span className="text-teal-500">mobile responsive</span>. My professional projects within my previous jobs are non-public. You
           can find projects on other personal applications on my
           <a href="https://github.com/codeuchay" className="text-teal-500">
             {" "}
@@ -26,7 +26,7 @@ export default function Portfolio() {
           for example{" "}
           <span className="text-teal-500">
             {" "}
-           Web Applications, Mobile Applications,  Machine Learning Projects etc{" "}
+           Web Applications, Mobile Applications,  Machine Learning Projects etc.{" "}
           </span>
           I work daily on new projects so feel free to contact me if you want a
           collaboration. &#128578;
