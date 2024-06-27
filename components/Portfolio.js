@@ -14,7 +14,7 @@ export default function Portfolio() {
       <div className="flex flex-col text-center items-center justify-center mt-10 py-10">
         <SiPolymerproject className="text-teal-600 text-6xl mb-4" />
         <h3 className="text-teal-600 text-4xl mb-4 py-1 dark:text-white ">
-          Portofolio
+          Portfolio
         </h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           These are a list of my personal web projects, they contain <span className="text-teal-500">dynamic features</span> and are <span className="text-teal-500">mobile responsive</span>. My professional projects within my previous jobs are non-public. You
