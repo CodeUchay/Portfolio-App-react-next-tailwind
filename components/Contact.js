@@ -29,7 +29,7 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="flex flex-col text-center items-center justify-center mt-5 py-7">
         <MdContactEmergency className="text-teal-600 text-6xl mb-4" />
-        <h1 className="text-teal-600 text-4xl mb-4"> Contact Me! </h1>
+        <h1 className="dark:text-white text-gray-500 text-4xl mb-4"> Contact Me! </h1>
         <p className="text-center   dark:text-gray-200">
           You can contact me for any other information and i will be sure to
           respond at my earliest convenience

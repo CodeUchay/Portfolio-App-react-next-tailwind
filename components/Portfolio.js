@@ -17,8 +17,8 @@ export default function Portfolio() {
           Portofolio
         </h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          These are a list of my personal project as a Full-stack Developer. You
-          can find projects on other Software Applications on my
+          These are a list of my personal web projects, they contain <span className="text-teal-500">dynamic features</span> and are <span className="text-teal-500">mobile responsive</span>. My professional projects within my previous jobs are non-public. You
+          can find projects on other personal applications on my
           <a href="https://github.com/codeuchay" className="text-teal-500">
             {" "}
             Github{" "}
@@ -29,7 +29,7 @@ export default function Portfolio() {
            Web Applications, Mobile Applications,  Machine Learning Projects etc{" "}
           </span>
           I work daily on new projects so feel free to contact me if you want a
-          collaboration.
+          collaboration. &#128578;
         </p>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -49,7 +49,7 @@ export default function Portfolio() {
           />
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
             <p className="font-bold"> Admin Dashboard Mock Up</p>
-            <span>React.js, Tailwind CSS</span>
+            <span>JavaScript, React.js, Tailwind CSS</span>
           </div>
         </a>
         {/** Tastyy */}
@@ -68,7 +68,7 @@ export default function Portfolio() {
           />
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
             <p className="font-bold"> Tastyy - E-commerce Restaurant App </p>
-            <span>React.js, Tailwind CSS</span>
+            <span> JavaScript, React.js, Tailwind CSS</span>
           </div>
         </a>
         {/** Eshoes */}
@@ -107,9 +107,9 @@ export default function Portfolio() {
           <div className="bottom-0 left-0 right-0 px-4 py-2 text-center">
             <p className="font-bold">
               {" "}
-              React Guy 
+              React Guy - E-Learning Business Page
             </p>
-            <span>React.js, Tailwind CSS, Email.js </span>
+            <span>JavaScript, React.js, Tailwind CSS, Email.js </span>
           </div>
         </a>
         {/** CodeRage */}

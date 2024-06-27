@@ -14,14 +14,12 @@ export default function Services() {
         </h3>
 
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          I create projects  as a 
-          software engineer and full stack developer , I've worked with a Bank, IT solutions
-          <span className="text-teal-500"> company </span>
-          and also handled websites for some <br/> <span className="text-teal-500">firms </span>
+          I create dynamic software and full-stack applications using. I've worked with a <span className="text-teal-500">Bank </span>, 
+          <span className="text-teal-500"> IT solutions,  </span><br/> <span className="text-teal-500"> E-commerce firms </span>
           and i am currently on track to become more robost in full-stack engineering and  machine learning.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          Asides this, i am a business owner, fashion designer and a model
+          Asides this, i am a business owner, fashion designer and a model &#128515;
         </p>
       </div>
       <div className="lg:flex gap-10">
