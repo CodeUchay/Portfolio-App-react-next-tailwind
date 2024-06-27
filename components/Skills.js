@@ -11,7 +11,7 @@ export default function Skills() {
       </div>
       <div className="flex flex-col text-center items-center justify-center mt-10 lg:mt-20 pb-7">
         <HiChip className="text-teal-600 text-6xl mb-4" />
-        <h1 className="dark:text-white text-gray-500 text-4xl mb-2">
+        <h1 className="dark:text-white text-teal-600 text-4xl mb-2">
           Skills &amp; Technologies
         </h1>
       </div>

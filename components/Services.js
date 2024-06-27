@@ -9,12 +9,12 @@ export default function Services() {
     <section className="scroll-smooth">
       <div className="flex flex-col text-center items-center justify-center mt-10">
         <BiCodeAlt className="text-teal-600 text-6xl mb-4" />
-        <h3 className="text-teal-600 text-4xl mb-4 py-1 dark:text-white ">
+        <h3 className="text-teal-600 text-4xl mb-4 py-1 dark:text-white  ">
           Services
         </h3>
 
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          I create dynamic software and full-stack applications using. I've worked with a <span className="text-teal-500">Bank </span>, 
+          I create dynamic software and full-stack applications. I've worked with a <span className="text-teal-500">Bank </span>, 
           <span className="text-teal-500"> IT solutions,  </span><br/> <span className="text-teal-500"> E-commerce firms </span>
           and i am currently on track to become more robost in full-stack engineering and  machine learning.
         </p>
