@@ -54,7 +54,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
           I'm a Software Engineer in France with a flare for Full-stack
-          Devlopment and Artificial Intelligence. I really enjoy building
+          Development and Artificial Intelligence. I really enjoy building
           digital products that are innovative, performant, scalable and
           globally accessible.
         </p>
