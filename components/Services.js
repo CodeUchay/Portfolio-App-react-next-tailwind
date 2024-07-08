@@ -16,7 +16,7 @@ export default function Services() {
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           I create dynamic software and full-stack applications. I've worked with a <span className="text-teal-500">Bank </span>, 
           <span className="text-teal-500"> IT solutions,  </span><br/> <span className="text-teal-500"> E-commerce firms </span>
-          and i am currently on track to become more robu nst in full-stack engineering and  machine learning.
+          and i am currently on track to become more robust in full-stack engineering and  machine learning.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           Asides this, i am a business owner, fashion designer and a model &#128515;
