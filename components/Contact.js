@@ -70,7 +70,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed text-white">+33758300195</p>
+              <p className="leading-relaxed text-white">+337XXXXXXXX</p>
             </div>
           </div>
         </div>

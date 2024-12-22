@@ -23,7 +23,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           <li>
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-              href="https://docs.google.com/document/d/1kUeS81FLyP2VmPFxvU2seJOTJ67leJtqcoLlZ2keDg4/edit?usp=sharing"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           <li className="hidden lg:block">
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-              href="https://drive.google.com/file/d/1FFKoseVN1NXU70ykXB9eTy0xcRpwvlz6/view?usp=drive_link"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,21 +67,21 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
             <AiFillGithub className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />
           </a>
           <a
-            href="https://linkedin.com/in/uche-odinamba-b89bb5108/"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
             <AiFillLinkedin className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
           <a
-            href="https://instagram.com/uchaygram"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
             <AiFillInstagram className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
           <a
-            href="https://twitter.com/offuchay"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
