@@ -24,8 +24,6 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               href="#"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               Resume <span className="font-semibold">EN</span>
             </a>
@@ -34,8 +32,6 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
             <a
               className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               href="#"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               Resume <span className="font-semibold">FR</span>
             </a>
@@ -68,22 +64,16 @@ export default function Nav({ darkMode, toggleDarkMode, navOpen, setNavOpen }) {
           </a>
           <a
             href="#"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <AiFillLinkedin className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
           <a
             href="#"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <AiFillInstagram className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
           <a
             href="#"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <AiFillTwitterCircle className="hover:text-teal-500 hover:transform hover:scale-125 hover:duration-300 hover:ease-in-out" />{" "}
           </a>
